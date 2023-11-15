@@ -1,8 +1,8 @@
-# LEC1 
+# LEC 1
 
 ## Ordered set (有序集)
 
-### Set 
+### Set
 
 - $\sqrt{2}$ is a irrational number and a gap in $\mathbb{Q}$
 - Set: A group of element, maybe empty or nonempty
@@ -30,7 +30,6 @@
     x_n^2 < 2 \Rightarrow x_{n+1}- x_n > 0
     $$
     
-
 - Ordered sets is similar to the definition like metric space or norm space.
 - All the stuff talked above try to remind us that there exists many **gaps** in the ration number set Q.
 
@@ -79,7 +78,26 @@
 
 ### The complex fields
 
-- Quite similar, nothing special to talk about
+- The complex number can be regarded as a pair of number
+
+- addition and multiplication:
+  $$
+  (a, b) + (c, d) = (a+b, c+d) \\
+  (a, b) * (c, d) = (ac-bd, ad + bc)
+  $$
+  
+
+- conjugate
+  $$
+  z = (a, b), \overline{z} = (a, -b)
+  $$
+  
+
+- Cauthy-Schwarz inequality
+  $$
+  \forall a_j, b_j \in \mathbb{C},
+  |\sum_{j=1}^n a_jb_j|^2 \leq |\sum_{j=1}^n a_j|^2|\sum_{j=1}^n b_j|^2
+  $$
 
 ### remarks
 
